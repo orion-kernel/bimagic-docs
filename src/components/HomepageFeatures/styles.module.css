@@ -74,16 +74,31 @@
 }
 
 @media screen and (max-width: 996px) {
+  .features {
+    padding: 4rem 0;
+  }
   .featureRow, .featureRowReverse {
     flex-direction: column;
     text-align: center;
     gap: 3rem;
+    margin-bottom: 6rem;
   }
   .featureIconContainer {
     margin-left: auto;
     margin-right: auto;
+    height: 60px;
+    width: 60px;
+    font-size: 2rem;
   }
   .featureTitle {
-    font-size: 2rem;
+    font-size: 1.75rem;
+  }
+  .featureDescription {
+    font-size: 1.1rem;
+  }
+  .abstractVisual {
+    width: 200px;
+    height: 200px;
+    font-size: 5rem;
   }
 }

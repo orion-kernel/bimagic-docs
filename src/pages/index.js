@@ -13,8 +13,13 @@ function HomepageHeader() {
     <header className={clsx(styles.heroBanner, 'slanted-bg')}>
       <div className={clsx('container', styles.heroContent)}>
         <div className={styles.heroText}>
+          <div className={styles.heroBadge}>
+            <span className={styles.badgeEmoji}>✨</span>
+            <span className={styles.badgeText}>Git Magic for Modern Developers</span>
+          </div>
           <Heading as="h1" className={clsx(styles.heroTitle, 'glossy-text')}>
             {siteConfig.title}
+            <span className={styles.heroTitleDot}>.</span>
           </Heading>
           <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
           <div className={styles.buttons}>
@@ -28,6 +33,11 @@ function HomepageHeader() {
               to="/docs/intro">
               Learn More
             </Link>
+          </div>
+          <div className={styles.heroDecorative}>
+            <div className={styles.magicDot}></div>
+            <div className={styles.magicDot}></div>
+            <div className={styles.magicDot}></div>
           </div>
         </div>
         <div className={styles.heroVisual}>
