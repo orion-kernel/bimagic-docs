@@ -18,10 +18,10 @@ Bimagic is an interactive command-line tool that streamlines common Git operatio
 
 ## Sample
 
-<img width="800" height="450" alt="Image" src="https://github.com/Bimbok/bimagic/raw/main/Sample/2026-03-11-191645_hyprshot.png" />
+<img width="800" height="450" alt="Image" src="https://github.com/orion-kernel/bimagic/raw/main/Sample/2026-03-11-191645_hyprshot.png" />
 <p align="center">bimagic in a terminal (kitty)</p>
 
-<img width="800" height="450" alt="Image" src="https://github.com/Bimbok/bimagic/raw/main/Sample/2026-03-11-191744_hyprshot.png" />
+<img width="800" height="450" alt="Image" src="https://github.com/orion-kernel/bimagic/raw/main/Sample/2026-03-11-191744_hyprshot.png" />
 <p align="center">bimagic in neovim</p>
 
 ## Features

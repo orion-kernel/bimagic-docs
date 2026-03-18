@@ -27,8 +27,8 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'Bimbok', // Usually your GitHub org/user name.
-    projectName: 'bimagic', // Usually your repo name.
+    organizationName: 'orion-kernel', // Usually your GitHub org/user name.
+    projectName: 'bimagic-docs', // Usually your repo name.
 
     onBrokenLinks: 'throw',
 
@@ -50,7 +50,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/Bimbok/bimagic/tree/main/docs/',
+                        'https://github.com/orion-kernel/bimagic-docs/tree/main/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -61,7 +61,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/Bimbok/bimagic/tree/main/blog/',
+                        'https://github.com/orion-kernel/bimagic-docs/tree/main/',
                     // Useful options to enforce blogging best practices
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
@@ -100,7 +100,7 @@ const config = {
                     },
                     { to: '/blog', label: 'Blog', position: 'left' },
                     {
-                        href: 'https://github.com/Bimbok/bimagic',
+                        href: 'https://github.com/orion-kernel/bimagic',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -146,7 +146,7 @@ const config = {
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/Bimbok/bimagic',
+                                href: 'https://github.com/orion-kernel/bimagic',
                             },
                         ],
                     },

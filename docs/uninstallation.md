@@ -11,7 +11,7 @@ If you ever need to remove Bimagic from your system, you have two options:
 Run the uninstall script directly from GitHub:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Bimbok/bimagic/main/uninstall.sh | bash
+curl -sSL https://raw.githubusercontent.com/orion-kernel/bimagic/main/uninstall.sh | bash
 ```
 
 ### Option 2: Manual Uninstallation

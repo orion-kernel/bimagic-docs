@@ -19,7 +19,7 @@ Check out the live documentation at: **[https://bimagic.vercel.app](https://bima
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/Bimbok/bimagic.git
+git clone https://github.com/orion-kernel/bimagic-docs.git
 cd bimagic-docs
 npm install
 ```
@@ -98,10 +98,10 @@ We welcome contributions! Whether it's fixing a typo, improving a guide, or addi
 ## 💬 Community
 
 - **Discord:** [Join our Discord server](https://discord.gg/uDp2zAuUyQ)
-- **GitHub Issues:** [Report bugs or suggest features](https://github.com/Bimbok/bimagic/issues)
+- **GitHub Issues:** [Report bugs or suggest features](https://github.com/orion-kernel/bimagic/issues)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the terms specified in the repository. Built with ❤️ by [Bimbok](https://github.com/Bimbok).
+This project is licensed under the terms specified in the repository. Built with ❤️ by [orion-kernel](https://github.com/orion-kernel).

@@ -9,7 +9,7 @@ sidebar_position: 2
 Run this one-line command to install Bimagic:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Bimbok/bimagic/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/orion-kernel/bimagic/main/install.sh | bash
 ```
 
 ### Installation using npm
@@ -82,7 +82,7 @@ return {
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Bimbok/bimagic.git
+git clone https://github.com/orion-kernel/bimagic.git
 ```
 
 2. Make the script executable:
