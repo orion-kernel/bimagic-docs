@@ -10,18 +10,37 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Get Started 🚀
-          </Link>
+    <header className={clsx(styles.heroBanner, 'slanted-bg')}>
+      <div className={clsx('container', styles.heroContent)}>
+        <div className={styles.heroText}>
+          <Heading as="h1" className={clsx(styles.heroTitle, 'glossy-text')}>
+            {siteConfig.title}
+          </Heading>
+          <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
+          <div className={styles.buttons}>
+            <Link
+              className={styles.getStartedButton}
+              to="/docs/intro">
+              Get Started 🚀
+            </Link>
+            <Link
+              className={styles.learnMoreButton}
+              to="/docs/intro">
+              Learn More
+            </Link>
+          </div>
+        </div>
+        <div className={styles.heroVisual}>
+          <div className="hero__visual">
+            <div className="cube-container">
+              <div className="cube-face cube-front">🪄</div>
+              <div className="cube-face cube-back">🔮</div>
+              <div className="cube-face cube-right">🧙</div>
+              <div className="cube-face cube-left">✨</div>
+              <div className="cube-face cube-top">🌟</div>
+              <div className="cube-face cube-bottom">💎</div>
+            </div>
+          </div>
         </div>
       </div>
     </header>

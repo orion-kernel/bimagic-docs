@@ -116,13 +116,23 @@ const config = {
             },
             footer: {
                 style: 'dark',
+                logo: {
+                    alt: 'Bimagic Logo',
+                    src: 'img/logo.svg',
+                    href: 'https://github.com/Bimbok/bimagic',
+                    width: 160,
+                },
                 links: [
                     {
-                        title: 'Docs',
+                        title: 'Wizardry',
                         items: [
                             {
                                 label: 'Introduction',
                                 to: '/docs/intro',
+                            },
+                            {
+                                label: 'Installation',
+                                to: '/docs/installation',
                             },
                         ],
                     },
@@ -134,27 +144,35 @@ const config = {
                                 href: 'https://discord.gg/uDp2zAuUyQ',
                             },
                             {
-                                label: 'X',
+                                label: 'X (Twitter)',
                                 href: 'https://x.com/docusaurus',
                             },
                         ],
                     },
                     {
-                        title: 'More',
+                        title: 'Connect',
                         items: [
                             {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/orion-kernel/bimagic',
+                                html: `
+                                    <div class="footer__socials">
+                                        <a href="https://github.com/Bimbok/bimagic" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="GitHub">
+                                            <img src="/img/github.svg" alt="GitHub" />
+                                        </a>
+                                        <a href="https://discord.gg/uDp2zAuUyQ" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Discord">
+                                            <img src="/img/discord.svg" alt="Discord" />
+                                        </a>
+                                        <a href="https://x.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="X">
+                                            <img src="/img/x.svg" alt="X" />
+                                        </a>
+                                    </div>
+                                `,
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} Bimagic. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Bimagic. Crafted with ✨ and Docusaurus.`,
             },
+
             prism: {
                 theme: prismThemes.github,
                 darkTheme: prismThemes.dracula,

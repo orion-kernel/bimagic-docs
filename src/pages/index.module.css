@@ -4,20 +4,116 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 8rem 0 12rem;
   position: relative;
   overflow: hidden;
 }
 
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.heroText {
+  flex: 1;
+  text-align: left;
+}
+
+.heroTitle {
+  font-size: 4.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  opacity: 0.95;
+  line-height: 1.4;
+  max-width: 550px;
+}
+
+.heroVisual {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
 @media screen and (max-width: 996px) {
+  .heroContent {
+    flex-direction: column;
+    text-align: center;
+  }
+  .heroText {
+    text-align: center;
+  }
+  .heroTitle {
+    font-size: 3rem;
+  }
+  .heroSubtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heroVisual {
+    justify-content: center;
+    margin-top: 4rem;
+  }
   .heroBanner {
-    padding: 2rem;
+    padding: 4rem 1rem 8rem;
   }
 }
 
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 1.25rem;
+}
+
+@media screen and (max-width: 996px) {
+  .buttons {
+    justify-content: center;
+  }
+}
+
+.getStartedButton {
+  padding: 1.1rem 2.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  background: white;
+  color: var(--ifm-color-primary) !important;
+  border: none;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+}
+
+.getStartedButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.05);
+}
+
+.learnMoreButton {
+  padding: 1.1rem 2.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  background: transparent;
+  color: white !important;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+}
+
+.learnMoreButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  transform: translateY(-2px);
 }
