@@ -1,41 +1,107 @@
-# Website
+# Bimagic - Summon the Git Wizard! 🪄✨
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the official documentation repository for **Bimagic**, the ultimate Git companion. This website provides comprehensive guides, tutorials, and reference material to help you master Git with ease.
 
-## Installation
+Built with [Docusaurus 3](https://docusaurus.io/), this site is designed for performance, accessibility, and a great developer experience.
 
-```bash
-yarn
-```
+## 🌐 Live Site
+Check out the live documentation at: **[https://bimagic.vercel.app](https://bimagic.vercel.app)**
 
-## Local Development
+---
 
-```bash
-yarn start
-```
+## 🚀 Getting Started
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Prerequisites
+- [Node.js](https://nodejs.org/) (version 20 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+### Installation
+Clone the repository and install the dependencies:
 
 ```bash
-USE_SSH=true yarn deploy
+git clone https://github.com/Bimbok/bimagic.git
+cd bimagic-docs
+npm install
 ```
 
-Not using SSH:
+### Local Development
+Start the development server:
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+npm run start
+```
+This command starts a local development server and opens up a browser window at `http://localhost:3000`. Most changes are reflected live without having to restart the server.
+
+---
+
+## 🛠️ Build & Deployment
+
+### Production Build
+To generate a static production build:
+
+```bash
+npm run build
+```
+The static files will be generated in the `build` directory.
+
+### Testing the Build
+Preview your production build locally:
+
+```bash
+npm run serve
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### Deployment
+This site is configured for deployment via GitHub Pages or Vercel.
+
+**For GitHub Pages:**
+```bash
+# Using SSH
+USE_SSH=true npm run deploy
+
+# Not using SSH
+GIT_USER=<Your GitHub username> npm run deploy
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+.
+├── blog/             # Blog posts and announcements
+├── docs/             # Documentation MDX files
+│   ├── menu-options/ # Detailed guides for specific features
+│   └── ...           # Installation, Usage, Configuration, etc.
+├── src/
+│   ├── components/   # Custom React components
+│   ├── css/          # Global CSS and styling
+│   └── pages/        # Custom standalone pages (e.g., Homepage)
+├── static/           # Static assets (images, logos, favicons)
+├── docusaurus.config.js # Main site configuration
+└── sidebars.js       # Documentation sidebar layout
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Whether it's fixing a typo, improving a guide, or adding new documentation:
+
+1.  **Fork** the repository.
+2.  **Create** a new branch for your feature or bugfix.
+3.  **Commit** your changes with clear messages.
+4.  **Push** to your branch and open a **Pull Request**.
+
+---
+
+## 💬 Community
+
+- **Discord:** [Join our Discord server](https://discord.gg/uDp2zAuUyQ)
+- **GitHub Issues:** [Report bugs or suggest features](https://github.com/Bimbok/bimagic/issues)
+
+---
+
+## 📄 License
+
+This project is licensed under the terms specified in the repository. Built with ❤️ by [Bimbok](https://github.com/Bimbok).
