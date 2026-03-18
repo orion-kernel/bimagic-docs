@@ -101,13 +101,15 @@ const config = {
                     { to: '/blog', label: 'Blog', position: 'left' },
                     {
                         href: 'https://github.com/orion-kernel/bimagic',
-                        label: 'GitHub',
                         position: 'right',
+                        className: 'header-github-link',
+                        'aria-label': 'GitHub repository',
                     },
                     {
                         href: 'https://discord.gg/uDp2zAuUyQ',
-                        label: 'Discord',
                         position: 'right',
+                        className: 'header-discord-link',
+                        'aria-label': 'Discord server',
                     },
 
                 ],
