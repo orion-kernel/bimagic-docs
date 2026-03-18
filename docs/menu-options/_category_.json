@@ -1,0 +1,8 @@
+{
+  "label": "Menu Options",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Detailed explanation of each interactive menu option in Bimagic."
+  }
+}
