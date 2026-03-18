@@ -26,20 +26,23 @@ Bimagic is an interactive command-line tool that streamlines common Git operatio
 
 ## Features
 
-- 🔮 **Interactive menu-driven interface**
-- 🔐 **Secure GitHub authentication** via personal access tokens
-- 📦 **Easy repository initialization** and setup
-- 📥 **Clone repositories** (Standard or Interactive selection)
-- 🔄 **Simplified push/pull operations**
-- 🌿 **Branch management** made easy
-- 📊 **Status dashboard** (ahead/behind, branch, clean/uncommitted/conflicts)
-- 🛡️ **Automatic master-to-main branch renaming**
-- 🗑️ **Safe file/folder removal** with git integration
-- 📈 **Contributor statistics** with time range selection
-- 🌐 **Git graph** (pretty git log) viewer
-- 📜 **The Architect** (.gitignore generator)
-- 🔀 **Merge branches** with conflict detection
-- ⏪ **Revert commit(s)** with multi-select
-- 🎨 **Theme Customization** (ANSI and Hex color support)
-- ⏳ **Time Turner** (Undo last commit)
-- 🗃️ **Stash operations** (Push, Pop, List, Apply, Drop, Clear)
+### Core Operations
+- **Interactive Interface**: Intuitive menu-driven command-line experience.
+- **Commit Management**: Streamlined staging, committing, and undoing ("Time Turner") with multi-select revert support.
+- **Branching & Merging**: Simplified branch management and merging with automated conflict detection.
+- **Stash Management**: Full support for stash operations including push, pop, list, and clear.
+
+### Repository Management
+- **Secure Integration**: GitHub authentication via personal access tokens.
+- **Automated Initialization**: Rapid setup and repository initialization.
+- **Smart Cloning**: Support for both standard and interactive repository selection.
+- **The Architect**: Integrated `.gitignore` generator for professional project setup.
+- **Safety**: Automated `master`-to-`main` branch renaming and safe file removal with Git integration.
+
+### Analysis & Visualization
+- **Status Dashboard**: Real-time overview of branch status, ahead/behind counts, and uncommitted changes.
+- **Visual Commit Graph**: High-quality "pretty git log" for clear history visualization.
+- **Contributor Stats**: Detailed project contribution insights with custom time-range filtering.
+
+### Customization
+- **Theming Engine**: Full UI customization with support for ANSI and Hex color codes.
