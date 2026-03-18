@@ -10,10 +10,12 @@ Simply run the `bimagic` command in your terminal:
 bimagic
 ```
 
-**Pro Tip:**
+:::tip Quick Access
 
 - Press **Ctrl + B** in your terminal to quickly summon the wizard from anywhere!
 - You can also use the short alias **wz** (Wizard) for even faster access!
+
+:::
 
 ```bash
 wz

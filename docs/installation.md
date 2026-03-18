@@ -28,7 +28,11 @@ The installer automatically sets up a **Ctrl + B** keybinding for **Zsh**, **Bas
 - **Bash**: Uses `bind -x` for direct execution.
 - **Fish**: Uses `bind \cb` with a repaint command.
 
-_Note: You may need to restart your terminal or source your config file (e.g., `source ~/.zshrc`) after installation for the keybinding to take effect._
+:::tip Terminal Restart Required
+
+You may need to restart your terminal or source your config file (e.g., `source ~/.zshrc`) after installation for the keybinding to take effect.
+
+:::
 
 ### Neovim Integration
 

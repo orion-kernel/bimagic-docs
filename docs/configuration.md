@@ -41,6 +41,10 @@ source ~/.bashrc  # or source ~/.zshrc
 5. Click **Generate token**.
 6. **Copy the token immediately** (you won't be able to see it again!).
 
+:::tip Keep your token secure
+Treat your Personal Access Token like a password. Never commit it to a public repository or share it with anyone. The `.bashrc` and `.zshrc` files where it is stored are typically private, but ensure they remain that way.
+:::
+
 ---
 
 ### Theme Customization 🎨
