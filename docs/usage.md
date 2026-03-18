@@ -26,8 +26,14 @@ wz
 You can use flags to perform specific actions immediately:
 
 - **Clone Repository**:
+
   ```bash
   bimagic -d "repo-url"
+  ```
+
+- **Shallow Clone**:
+  ```bash
+  bimagic -d "repo-url" --depth 1
   ```
 - **Interactive Clone** (Select specific files/folders to download):
   ```bash

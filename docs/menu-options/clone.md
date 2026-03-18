@@ -4,11 +4,13 @@ sidebar_position: 1
 
 # Clone Repository
 
-This feature allows you to clone a repository with two modes:
+This feature allows you to clone a repository with two modes, both featuring a **themed progress bar** to show real-time download status
 
 ### Standard Clone
 
-Perform a full `git clone` of the target repository.
+Perform a full or shallow `git clone` of the target repository.
+
+- Usage from CLI: `bimagic -d "repo-url" [--depth <number>]`
 
 ### Interactive Clone (Sparse Checkout)
 

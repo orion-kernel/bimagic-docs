@@ -27,12 +27,15 @@ Bimagic is an interactive command-line tool that streamlines common Git operatio
 ## Features
 
 ### Core Operations
+
 - **Interactive Interface**: Intuitive menu-driven command-line experience.
 - **Commit Management**: Streamlined staging, committing, and undoing ("Time Turner") with multi-select revert support.
 - **Branching & Merging**: Simplified branch management and merging with automated conflict detection.
 - **Stash Management**: Full support for stash operations including push, pop, list, and clear.
+- Shallow clone support (--depth)
 
 ### Repository Management
+
 - **Secure Integration**: GitHub authentication via personal access tokens.
 - **Automated Initialization**: Rapid setup and repository initialization.
 - **Smart Cloning**: Support for both standard and interactive repository selection.
@@ -40,9 +43,12 @@ Bimagic is an interactive command-line tool that streamlines common Git operatio
 - **Safety**: Automated `master`-to-`main` branch renaming and safe file removal with Git integration.
 
 ### Analysis & Visualization
+
 - **Status Dashboard**: Real-time overview of branch status, ahead/behind counts, and uncommitted changes.
 - **Visual Commit Graph**: High-quality "pretty git log" for clear history visualization.
 - **Contributor Stats**: Detailed project contribution insights with custom time-range filtering.
+- Theming: Dynamic themed progress bar for cloning
 
 ### Customization
+
 - **Theming Engine**: Full UI customization with support for ANSI and Hex color codes.
