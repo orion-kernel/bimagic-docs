@@ -90,7 +90,7 @@ const config = {
         title: "Bimagic",
         logo: {
           alt: "Bimagic Logo",
-          src: "img/logo.svg",
+          src: "img/logo.png",
         },
         items: [
           {
@@ -118,9 +118,9 @@ const config = {
         style: "dark",
         logo: {
           alt: "Bimagic Logo",
-          src: "img/logo.svg",
+          src: "img/logo.png",
           href: "https://github.com/Bimbok/bimagic",
-          width: 160,
+          width: 200,
         },
         links: [
           {

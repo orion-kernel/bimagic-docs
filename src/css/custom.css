@@ -154,6 +154,10 @@
   opacity: 1;
 }
 
+.navbar__logo {
+  height: 2.5rem;
+}
+
 .footer__title {
   font-weight: 700 !important;
   color: #da70d6 !important;
