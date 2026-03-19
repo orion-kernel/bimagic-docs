@@ -5,7 +5,7 @@ sidebar_position: 1
 # Introduction
 
 <p align="center">
-  <img width="400" style={{borderRadius: '12px'}} alt="Bimagic Logo" src="https://github.com/user-attachments/assets/d74de26d-949b-4aa9-9b2e-c25de5b25b42" />
+  <img width="400" style={{borderRadius: '12px'}} alt="Bimagic Logo" src="/img/bimlogo.png" />
 </p>
 
 <p align="center">By Bimbok and adityapaul26</p>
@@ -18,10 +18,10 @@ Bimagic is an interactive command-line tool that streamlines common Git operatio
 
 ## Sample
 
-<img width="800" height="450" alt="Image" src="https://github.com/orion-kernel/bimagic/raw/main/Sample/2026-03-11-191645_hyprshot.png" />
+<img width="800" style={{borderRadius: '12px'}} height="450" alt="Image" src="/img/2026-03-11-191645_hyprshot.png" />
 <p align="center">bimagic in a terminal (kitty)</p>
 
-<img width="800" height="450" alt="Image" src="https://github.com/orion-kernel/bimagic/raw/main/Sample/2026-03-11-191744_hyprshot.png" />
+<img width="800" style={{borderRadius: '12px'}} height="450" alt="Image" src="/img/2026-03-11-191744_nvim.png" />
 <p align="center">bimagic in neovim</p>
 
 ## Features
@@ -47,7 +47,7 @@ Bimagic is an interactive command-line tool that streamlines common Git operatio
 - **Status Dashboard**: Real-time overview of branch status, ahead/behind counts, and uncommitted changes.
 - **Visual Commit Graph**: High-quality "pretty git log" for clear history visualization.
 - **Contributor Stats**: Detailed project contribution insights with custom time-range filtering.
-- Theming: Dynamic themed progress bar for cloning
+- **Theming**: Dynamic themed progress bar for cloning
 
 ### Customization
 
