@@ -59,6 +59,11 @@ You can use flags to perform specific actions immediately:
   ```bash
   bimagic -a
   ```
+- Pull latest changes
+
+  ```bash
+  bimagic -p
+  ```
 
 ### Status Dashboard
 
