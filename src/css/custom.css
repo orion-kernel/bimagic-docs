@@ -183,3 +183,53 @@
 .header-discord-link:hover::before {
   opacity: 0.8;
 }
+
+/* Terminal Styling for Code Blocks */
+div[class*='codeBlockContainer'] {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+div[class*='codeBlockContainer']::before {
+  content: '';
+  display: block;
+  height: 24px;
+  background: #2d2d2d;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background-image: radial-gradient(circle, #ff5f56 50%, transparent 50%),
+                    radial-gradient(circle, #ffbd2e 50%, transparent 50%),
+                    radial-gradient(circle, #27c93f 50%, transparent 50%);
+  background-size: 10px 10px;
+  background-position: 12px center, 28px center, 44px center;
+  background-repeat: no-repeat;
+}
+
+[data-theme='light'] div[class*='codeBlockContainer']::before {
+  background: #f0f0f0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+div[class*='codeBlockContent'] {
+  background-color: #1e1e1e !important;
+}
+
+[data-theme='light'] div[class*='codeBlockContent'] {
+  background-color: #282c34 !important; /* Keep it dark even in light mode for terminal feel */
+}
+
+pre[class*='codeBlock'] {
+  background-color: transparent !important;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Menlo', 'Monaco', 'Consolas', monospace;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.4rem !important;
+}
+
+/* Simple $ prompt for bash code blocks */
+code.language-bash::before {
+  content: '$ ';
+  color: #27c93f;
+  font-weight: bold;
+}
