@@ -5,7 +5,7 @@ sidebar_position: 1
 # Introduction
 
 <p align="center">
-  <img width="400" style={{borderRadius: '12px'}} alt="Bimagic Logo" src="/img/bimlogo.png" />
+  <img width="400" style={{borderRadius: '12px'}} alt="Bimagic Logo" src="/img/logo_1.png" />
 </p>
 
 <p align="center">By Bimbok and adityapaul26</p>
@@ -33,6 +33,7 @@ Bimagic is an interactive command-line tool that streamlines common Git operatio
 - **Branching & Merging**: Simplified branch management and merging with automated conflict detection.
 - **Stash Management**: Full support for stash operations including push, pop, list, and clear.
 - Shallow clone support (--depth)
+- **Resurrection Stone**: Recover lost commits/branches from reflog
 
 ### Repository Management
 
